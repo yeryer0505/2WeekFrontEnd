@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты - Настольный теннис</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="main-header">
+    <div class="header-container">
+        <img src="images/logo.jpg" alt="Логотип клуба" class="logo">
+        <h1 class="site-title">Клуб настольного тенниса</h1>
+    </div>
+    <nav id="navbar">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html">Главная</a></li>
+        <li><a class="nav-link" href="about.html">О клубе</a></li>
+        <li><a class="nav-link" href="tournaments.html">Турниры</a></li>
+        <li><a class="nav-link active" href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content-wrapper">
+    <section class="content-section">
+      <h2 class="section-heading">Свяжитесь с нами</h2>
+      <p class="paragraph-text">
+        Если у вас есть вопросы — напишите нам через форму или используйте другие способы связи.
+      </p>
+
+      <!-- Контактная информация -->
+      <div class="contact-info">
+        <p><strong>Телефон:</strong> +7 (707) 667-20-03</p>
+        <p><strong>Telegram:</strong> <a href="https://t.me/+ZVRFUhmGTz9jYTAy" target="_blank">Table Tennis Club | General</a></p>
+        <p><strong>Email:</strong> erkinerasil2005@gmail.com</p>
+      </div>
+
+      <!-- Форма обратной связи -->
+      <form id="user-form">
+        <label for="name" class="form-label">Имя:</label>
+        <input type="text" id="name" class="form-input" placeholder="Введите имя">
+
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" class="form-input" placeholder="Введите email">
+
+        <label for="message" class="form-label">Сообщение:</label>
+        <textarea id="message" class="form-input" rows="4" placeholder="Ваше сообщение"></textarea>
+
+        <button type="submit" class="submit-btn">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer-container">
+    <p class="footer-text">© 2025 Клуб настольного тенниса</p>
+  </footer>
+
+</body>
+</html>
